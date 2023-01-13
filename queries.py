@@ -37,7 +37,7 @@ def joinQry(db):
     """
     This function runs a SQL query that utilizes the INNER JOIN syntax. 
     It retrieves all rows from table A and table B where the condition 
-    "table_A.time = table_B.time_B" is met.
+    "table_A.time_A = table_B.time_B" is met.
     """
     t1 = datetime.now()
     engine = getConnection(db)
